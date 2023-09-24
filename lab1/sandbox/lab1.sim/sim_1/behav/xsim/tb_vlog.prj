@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "C:/Users/Пользователь/Downloads/FPGA/basics-graphics-music/labs/common" \
+"C:/Users/Пользователь/Downloads/FPGA/basics-graphics-music/labs/01_and_or_not_xor_de_morgan/top.sv" \
+"C:/Users/Пользователь/Downloads/FPGA/basics-graphics-music/labs/01_and_or_not_xor_de_morgan/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
