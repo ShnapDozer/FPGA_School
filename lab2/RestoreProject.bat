@@ -1,0 +1,1 @@
+vivado -mode batch -source restore_project.tcl

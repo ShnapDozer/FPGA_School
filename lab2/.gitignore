@@ -1,0 +1,11 @@
+*.bak
+*.zip
+*.log
+*.pdf
+*.xls
+
+vivado
+vivado.*
+
+# Игнорируем песочницу
+/sandbox/*
